@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Media Query for Screen</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+
+    <main>
+      <header><h1>CSS Snippet Cheatsheet</h1></header>
+
+      <section class="header-info">Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to hthis page! Select any snippet below and it'll automatically select all of the code for you to copy.</section>
+
+      <section class="snippet-section">
+        <div class="snippet-div">
+          <div class="snippet-title">Flexbox Row</div>
+          
+          <div class="snippet-info">Use these properties to create a Flexbox row layout.</div>
+
+          <pre class="snippet-code">
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap;
+          }
+          </pre>
+        </div>
+ 
+
+
+     
+        <div class="snippet-div">
+          <div class="snippet-title">Flexbox Column</div>
+          
+          <div class="snippet-info">Use this to create a Flexbox column layout</div>
+
+          <pre class="snippet-code">
+          .column {
+            display: flex;
+            flex-direction: column;
+          }
+          </pre>
+        </div>
+     
+
+      
+        <div class="snippet-div">
+          <div class="snippet-title">CSS Grid Layout</div>
+          
+          <div class="snippet-info">Build a 12-column layout using CSS Grid</div>
+
+          <pre class="snippet-code">
+          .grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(12, 1fr)
+          }
+          </pre>
+        </div>
+      
+
+
+      
+        <div class="snippet-div">
+          <div class="snippet-title">Linear Gradient</div>
+          
+          <div class="snippet-info">This will create a background linear gradient from top to bottom.</div>
+
+          <pre class="snippet-code">
+          .linear-gradient-background {
+            background-image: linear-gradient (
+              rgba (232, 102, 236, 0.3) 0%,
+              rgba (232, 102, 236, 0.6) 100%,
+            );
+        
+          }
+          </pre>
+        </div>
+      
+
+
+      
+        <div class="snippet-div">
+          <div class="snippet-title">Box Transition Glow</div>
+          
+          <div class="snippet-info">Use transition and box shadows to glow on hover.</div>
+
+          <pre class="snippet-code">
+          .code-card .card-header {
+            border-radius: 8px;
+            transition: all 0.5s ease-in-out;
+          }
+          .code-card:hover,
+          .card-header:hover .card-header {
+            box-shadow: inset 0px 0px 8px 
+            rgba (232, 102, 236, 1) 15px
+            rgba (232, 102, 236, 1)
+           
+          }
+
+
+          </pre>
+        </div>
+     
+
+      
+        <div class="snippet-div">
+          <div class="snippet-title">Overlay Card with Title</div>
+          
+          <div class="snippet-info">Use position properties and negative margins to raise elements higher than their natural starting point.</div>
+
+          <pre class="snippet-code">
+          .card-header {
+            position: relative;
+            margin-top: -20px;
+          }
+          </pre>
+        </div>
+    
+      </section>
+    </main>
+  </body>
+</html>
